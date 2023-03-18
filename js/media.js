@@ -26,7 +26,7 @@ function calcularMedia() {
     mensagem = "Infelizmente você zerou a prova :( ";
   }else if (media >= 0.1 && media <= 3) {
     mensagem = `Caramba, deu ruim, você obteve media  ${media} ! Estude mais e tente novamente!`;
-  }else if (soma >3 && soma <= 5.9) {
+  }else if (media >3 && media <= 5.9) {
     mensagem =  `Você obteve media ${media} ! Falta pouco para a média.`;
   }else if (media >5.9 && media <= 7) {
     mensagem = `Você está na média com ${media} `;
